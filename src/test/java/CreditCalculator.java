@@ -4,13 +4,24 @@ import java.util.ArrayList;
 
 public class CreditCalculator {
     ArrayList<Lecture> myLectures;
-    public CreditCalculator(Lecture lec){
+    public CreditCalculator(){
         myLectures = new ArrayList<>();
+    }
+    public CreditCalculator(Lecture lec){
+        this();
         myLectures.add(lec);
     }
+
     public void addLec(Lecture lec){
         myLectures.add(lec);
     }
+
+    public void showAllLectures(){
+        myLectures.sort(new LectureComparator());
+        for(Lecture lec : myLectures)
+            System.out.println(lec);
+    }
+
     public double getAverageCredit(){
         int lecNum = myLectures.size();
         double totCrd = 0, totGrade = 0;
