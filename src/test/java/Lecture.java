@@ -11,9 +11,6 @@ public class Lecture implements Comparable<Lecture>{
 
     Semester semester;
 
-    enum Grade{
-
-    }
     public Lecture(int credit, double grade, boolean isSNU){
         this(null, null, credit, grade, isSNU);
     }

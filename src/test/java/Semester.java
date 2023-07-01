@@ -10,8 +10,8 @@ public class Semester implements Comparable<Semester>{
             switch(this){
                 case I: return "I";
                 case II: return "II";
-                case S: return "Summer";
-                case W: return "Winter";
+                case S: return "여름";
+                case W: return "겨울";
                 case Undetermined:
                 default: return "(unknown)";
             }
@@ -33,7 +33,9 @@ public class Semester implements Comparable<Semester>{
         this.sNum = sNum2;
     }
 
-
+    public void printTimeTable(){
+        // 미완성
+    }
 
     @Override
     public int compareTo(Semester sem){

@@ -15,6 +15,10 @@ public class CreditCalculator {
     public void addLec(Lecture lec){
         myLectures.add(lec);
     }
+    public void addLec(Lecture... lec){ // variable args
+        for(Lecture le : lec)
+            myLectures.add(le);
+    }
 
     public void showAllLectures(){
         myLectures.sort(new LectureComparator());
@@ -22,7 +26,7 @@ public class CreditCalculator {
             System.out.println(lec);
     }
 
-    public double getAverageCredit(){
+    public double getAverageCredit(){   // bigDecimal 연산으로 하거나 반올림해서 깔끔하게 출력해 보기
         int lecNum = myLectures.size();
         double totCrd = 0, totGrade = 0;
         for(int i = 0; i < lecNum; i++){

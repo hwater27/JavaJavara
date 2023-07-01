@@ -10,9 +10,10 @@ public class CreditCalRunner {
         Lecture comGi = new Lecture("컴퓨팅 기초", null, 3, GradeNum.S, true, sem2021S);
         Lecture comHaek = new Lecture("컴퓨팅 핵심", null, 3, GradeNum.A0, false, sem2022II);
 
-        CreditCalculator cc = new CreditCalculator(comHaek);
+        CreditCalculator cc = new CreditCalculator();
+        
         cc.addLec(gongYeI);
-        cc.addLec(comGi);
+        cc.addLec(comGi, comHaek);
 
         System.out.println();
         cc.showAllLectures();
