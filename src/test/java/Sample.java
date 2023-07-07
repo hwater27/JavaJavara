@@ -14,7 +14,8 @@ public class Sample {
         System.out.println("김수민 추가합니달라");
         System.out.println("또추가");
         System.out.println("또추가함");
-        System.out.println("또33333");
+        System.out.println("또수정3");
+        
     }
 }
 
