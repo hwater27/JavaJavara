@@ -15,7 +15,7 @@ public class Sample {
         System.out.println("또추가");
         System.out.println("또추가함");
         System.out.println("또수정3");
-        
+        System.out.println("수민 추가1");
     }
 }
 
