@@ -8,7 +8,6 @@ public class Sample {
         System.out.println("쓸데없는 말");
         System.out.println("추가헤주세용");
         System.out.println("안녕하세용~~~~~~~^.^");
-        
     }
 }
 
