@@ -12,7 +12,7 @@ public class Sample {
         System.out.println("asdf1234");
         System.out.println("추가22222222");
         System.out.println("김수민 추가합니달라");
-        System.out.println("좀 돼라.....;;");
+        System.out.println("또추가");
     }
 }
 
