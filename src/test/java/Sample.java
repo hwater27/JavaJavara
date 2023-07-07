@@ -10,6 +10,7 @@ public class Sample {
         System.out.println("안녕하세용~~~~~~~^.^");
         System.out.println("추가추가추가");
         System.out.println("asdf1234");
+        System.out.println("추가22222222");
         System.out.println("김수민 추가합니달라");
     }
 }
