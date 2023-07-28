@@ -17,7 +17,7 @@ public class gyubranch {
 
             switch (choice1) {
                 case 1: //스케줄 추가
-                    scanner.nextLine(); 
+                    sc.nextLine(); 
                     System.out.print("스케줄 제목: ");
                     String title = sc.nextLine();
                     System.out.print("날짜 (yyyy-MM-dd): ");
@@ -32,7 +32,7 @@ public class gyubranch {
                     
                    
                 case 2: //스케줄 조회
-                    scanner.nextLine(); 
+                    sc.nextLine(); 
                     System.out.print("조회할 날짜 (yyyy-MM-dd): ");
                     String searchDate = sc.nextLine();
                     
