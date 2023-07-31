@@ -10,8 +10,10 @@ public class gyubranch {
         System.out.println("1. 스케줄 추가");
         System.out.println("2. 스케줄 조회");
         System.out.println("3. 종료");
+        
+        boolean a =true;
 
-        while (true) {
+        while (a ==true) {
             System.out.print("\n메뉴를 선택하세요: ");
             int choice1 = sc.nextInt();
 
@@ -73,7 +75,8 @@ public class gyubranch {
             
                 case 3: //프로그램 종료
                     System.out.println("프로그램을 종료합니다.");
-                    break;
+                    a = false;
+                    break
                     
                 default: //그 외 숫자
                     System.out.println("메뉴를 다시 선택해주세요.");
